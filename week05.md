@@ -323,22 +323,22 @@ OSPF automatically rerouted all traffic through FRR3 ✅
 
 ### Screenshots
 
-![OSPF Network](OSPF-Basics-12317623-network.png)
+![OSPF Network](./images/OSPF-Basics-12317623-network.png)
 *Figure 4: OSPF topology — Host1 and Host2 connected via 4 FRR routers with 2 redundant paths through NETem1 (top) and NETem2 (bottom)*
 
-![FRR1 Neighbours](OSPF-Basics-12317623-frr1-neighbors.png)
+![FRR1 Neighbours](./images/OSPF-Basics-12317623-frr1-neighbors.png)
 *Figure 5: FRR1 OSPF neighbour table showing FRR2 (via eth1) and FRR3 (via eth2) both in Full state, confirming OSPF convergence. Also shows OSPF routing table with both paths to 10.0.5.0/24*
 
-![FRR2 Routing Table](OSPF-Basics-12317623-frr2-routing-table.png)
+![FRR2 Routing Table](./images/OSPF-Basics-12317623-frr2-routing-table.png)
 *Figure 6: FRR2 routing table — shows O>* routes to all other subnets learned via OSPF*
 
-![FRR3 Routing Table](OSPF-Basics-12317623-frr3-routing-table.png)
+![FRR3 Routing Table](./images/OSPF-Basics-12317623-frr3-routing-table.png)
 *Figure 7: FRR3 routing table — shows O>* routes to all other subnets learned via OSPF*
 
-![Traceroute Before](OSPF-Basics-12317623-traceroute-before.png)
+![Traceroute Before](./images/OSPF-Basics-12317623-traceroute-before.png)
 *Figure 8: Ping 10.0.5.2 succeeds (TTL=61), traceroute confirms path via FRR1 → FRR2(10.0.1.2) → FRR4(10.0.3.2) — top path through NETem1*
 
-![Traceroute After](OSPF-Basics-12317623-traceroute-after.png)
+![Traceroute After](./images/OSPF-Basics-12317623-traceroute-after.png)
 *Figure 9: After NETem1 stopped, OSPF reconverged and traceroute now shows path via FRR1 → FRR3(10.0.2.2) → FRR4(10.0.4.2) → Host2(10.0.5.2) — bottom path through NETem2*
 
 ### Static vs Dynamic Routing Comparison
