@@ -77,7 +77,7 @@ nc 172.20.10.10 4444
 
 ### Screenshots
 
-![Netcat Client-Server](Netcat-Basics-12317623-client-server.png)
+![Netcat Client-Server](./images/Netcat-Basics-12317623-client-server.png)
 *Figure 1: Side-by-side view of HOST-A (server, left) and HOST-B (client, right). Both show the exchanged messages: "Karthik Murakonda" (name) and "12317623" (student ID).*
 
 ### Netcat vs Ping
