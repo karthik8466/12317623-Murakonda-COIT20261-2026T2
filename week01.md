@@ -67,10 +67,10 @@ ip address show
 
 ### Screenshots
 
-![Network Diagram](GNS3-Intro-12317623-network.png)
+![Network Diagram](./images/GNS3-Intro-12317623-network.png)
 *Figure 1: GNS3 canvas showing the /etc/network/interfaces configuration for AlpineLinux-1*
 
-![IP Address Console](GNS3-Intro-12317623-ipaddress.png)
+![IP Address Console](./images/GNS3-Intro-12317623-ipaddress.png)
 *Figure 2: Console output of `ip address show` confirming the static IP 172.20.10.20/24 on eth0*
 
 ### Learnings and Observations
