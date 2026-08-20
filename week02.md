@@ -89,19 +89,19 @@ ifup eth0
 
 ### Screenshots
 
-![Network](Setting-IP-12317623-network.png)
+![Network](./images/Setting-IP-12317623-network.png)
 *Figure 1: GNS3 network canvas showing 4 hosts connected to a switch*
 
-![Host 1](Setting-IP-12317623-host1.png)
+![Host 1](./images/Setting-IP-12317623-host1.png)
 *Figure 2: AlpineLinux-1 showing IP 172.20.10.20/24 (Method 1 – GNS3 Configure menu)*
 
-![Host 2](Setting-IP-12317623-host2.png)
+![Host 2](./images/Setting-IP-12317623-host2.png)
 *Figure 3: AlpineLinux-2 showing IP 172.20.10.21/24 (Method 1 – GNS3 Configure menu)*
 
-![Host 3](Setting-IP-12317623-host3.png)
+![Host 3](./images/Setting-IP-12317623-host3.png)
 *Figure 4: AlpineLinux-3 showing IP 172.20.10.22/24 (Method 2 – interfaces file in console)*
 
-![Host 4](Setting-IP-12317623-host4.png)
+![Host 4](./images/Setting-IP-12317623-host4.png)
 *Figure 5: AlpineLinux-4 showing IP 172.20.10.23/24 (Method 3 – ip address add)*
 
 ### Comparison of Three Methods
@@ -162,7 +162,7 @@ ping -c 3 -s 80 172.20.10.11    # combined: 3 packets, 80-byte payload
 
 ### Screenshots
 
-![Simple Ping](Ping-Basics-12317623-simple.png)
+![Simple Ping](./images/Ping-Basics-12317623-simple.png)
 *Figure 6: Ping from AlpineLinux-1 to 172.20.10.11 – 6 packets, 0% loss, avg RTT 0.327ms*
 
 ### Understanding Ping Output
