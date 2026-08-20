@@ -13,7 +13,7 @@
 ## Section A – Unit Setup
 
 ### GitHub Repository
-Created a private GitHub repository named `12317623-COIT20261-2026T2` and shared it with the tutor.
+Created a private GitHub repository named `12317623-Murakonda-COIT20261-2026T2` and shared it with the tutor.
 
 ### Software Installed
 - VirtualBox (virtualization software to run the GNS3 VM)
