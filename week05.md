@@ -105,13 +105,13 @@ ping 10.1.2.1
 
 ### Screenshots
 
-![View Routes Network](View-Routes-12317623-network.png)
+![View Routes Network](./images/View-Routes-12317623-network.png)
 *Figure 1: Topology — HOST-A and HOST-B on Subnet 1 (10.1.1.0/24) via Switch1, connected to Linux-Router which links to HOST-C on Subnet 2 (10.1.2.0/24)*
 
-![Ping Results](View-Routes-12317623-ping.png)
+![Ping Results](./images/View-Routes-12317623-ping.png)
 *Figure 2: HOST-A pinging HOST-B (10.1.1.20), HOST-C (10.1.2.10), and both router interfaces — all successful with 0% packet loss*
 
-![Router Routing Table](View-Routes-12317623-router-routing-table.png)
+![Router Routing Table](./images/View-Routes-12317623-router-routing-table.png)
 *Figure 3: Linux-Router routing table showing two directly connected networks (10.1.1.0/24 on eth0 and 10.1.2.0/24 on eth1), with ip_forward=1 enabling packet forwarding*
 
 ### Learnings and Observations
