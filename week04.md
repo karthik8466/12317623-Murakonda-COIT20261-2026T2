@@ -95,7 +95,7 @@ ping 192.168.3.10
 
 ### Screenshots
 
-![GUI Network](HTTPClient-GUI-12317623-network.png)
+![GUI Network](./images/HTTPClient-GUI-12317623-network.png)
 *Figure 1: GNS3 topology showing Firefox Host, 2 Routers, 3 Switches, and Linux-Server across 3 subnets*
 
 ### Learnings and Observations
@@ -168,10 +168,10 @@ Both files (59 bytes each) were successfully downloaded from the server.
 
 ### Screenshots
 
-![CLI Network](HTTPClient-CLI-12317623-network.png)
+![CLI Network](./images/HTTPClient-CLI-12317623-network.png)
 *Figure 2: GNS3 topology with Linux-Host replacing Firefox, same 3-subnet architecture*
 
-![wget and curl](HTTPClient-CLI-12317623-wget-curl.png)
+![wget and curl](./images/HTTPClient-CLI-12317623-wget-curl.png)
 *Figure 3: wget successfully downloading index.html and page.html from Linux-Server at 192.168.3.10*
 
 ### Learnings and Observations
