@@ -2,8 +2,9 @@
 # Week 02 Portfolio – COIT20261 Network Technologies
 
 **Name:** Karthik Murakonda
+
 **Student ID:** 12317623
-**Date:** 13 August 2026
+
 **Unit:** COIT20261 – Network Technologies
 
 ---
